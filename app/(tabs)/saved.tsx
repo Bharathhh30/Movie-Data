@@ -6,7 +6,7 @@ const saved = () => {
     <View
       className="flex-1 justify-center items-center"
     >
-      <Text className="text-5xl text-dark-200">Saved!</Text>
+      <Text className="text-5xl p-1 text-dark-200">Saved!</Text>
       
     </View>
   )

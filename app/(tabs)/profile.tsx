@@ -6,7 +6,7 @@ const profile = () => {
     <View
       className="flex-1 justify-center h-auto items-center"
     >
-      <Text className="text-5xl text-dark-200">Profile!</Text>
+      <Text className="text-5xl p-1 text-dark-200">Profile!</Text>
       
     </View>
   )
