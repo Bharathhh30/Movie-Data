@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // NOTE: Update this to include the paths to all of your component files.
-  content: ["./app/**/*.{js,jsx,ts,tsx}"],
+  content: ["./app/**/*.{js,jsx,ts,tsx}","./components/**/*.{js,jsx,ts,tsx}"],
+  // this is done becuz , /app matrame unde appudu only app folder lo unna js ts jsx tsx files ki matrame tailwind apply avtad
+  // adhe ippudu components folder ni include chesamu so ikkada kuda apply avtad (very important)
   presets: [require("nativewind/preset")],
   theme: {
     extend: {
