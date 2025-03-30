@@ -4,9 +4,9 @@ import React from 'react'
 const saved = () => {
   return (
     <View
-      className="flex-1 justify-center items-center"
+      className="flex-1 justify-center items-center bg-primary"
     >
-      <Text className="text-5xl p-1 text-dark-200">Saved!</Text>
+      <Text className="text-5xl p-1 text-white">Saved!</Text>
       
     </View>
   )

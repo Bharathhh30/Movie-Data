@@ -4,9 +4,9 @@ import React from 'react'
 const profile = () => {
   return (
     <View
-      className="flex-1 justify-center h-auto items-center"
+      className="flex-1 justify-center h-auto items-center bg-primary"
     >
-      <Text className="text-5xl p-1 text-dark-200">Profile!</Text>
+      <Text className="text-5xl p-1 text-white">Profile!</Text>
       
     </View>
   )
