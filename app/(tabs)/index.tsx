@@ -22,7 +22,7 @@ export default function Index() {
     error : trendingError,
     refetch : refetchTrending
   } = useFetch(getTrendingMovies)
-
+  // this loading : trendingLoading is like loading ni trendingLoading ani refer chestunam
   const {
     data: movies,
     loading: moviesLoading,
