@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": ["USE_BIOMETRIC", "USE_FINGERPRINT"]
     },
     "web": {
       "bundler": "metro",
